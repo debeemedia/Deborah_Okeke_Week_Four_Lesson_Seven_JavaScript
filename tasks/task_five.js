@@ -60,6 +60,6 @@ for (const mountain of mountains) {
   table.appendChild(newRow)
 }
 
-//  get the element with id=mountains and assign it to a variable; then append the table to it
+//  get the element with id=mountains (in task_five.html) and assign it to a variable; then append the table to it
 const target = document.getElementById('mountains')
 target.appendChild(table)
