@@ -57,6 +57,7 @@ for (const mountain of mountains) {
   newRow.appendChild(mountName)
   newRow.appendChild(mountHeight)
   newRow.appendChild(mountPlace)
+  // append the row to the table created
   table.appendChild(newRow)
 }
 
