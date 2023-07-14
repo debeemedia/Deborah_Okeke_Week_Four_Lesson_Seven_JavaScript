@@ -40,7 +40,7 @@ const mountains = [
 
 //  create the table
 const table = document.createElement('table')
-table.innerHTML = '<tr><td>Name</td><td>Height</td><td>Place</td></tr>'
+table.innerHTML = '<tr><th>Name</th><th>Height</th><th>Place</th></tr>'
 
 //  iterate over the array of mountain objects
 for (const mountain of mountains) {
