@@ -49,9 +49,10 @@ for (const mountain of mountains) {
   const mountName = document.createElement('td')
   const mountHeight = document.createElement('td')
   const mountPlace = document.createElement('td')
-  // fill in the cells
+  // fill in the cells and align number cells to the right
   mountName.innerText = mountain.name
   mountHeight.innerText = mountain.height
+  mountHeight.style.textAlign = 'right'
   mountPlace.innerText = mountain.place
   // append the cells to the row created
   newRow.appendChild(mountName)
